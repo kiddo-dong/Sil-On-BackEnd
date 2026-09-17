@@ -418,6 +418,13 @@ flowchart LR
 
 ## 🗂 데이터베이스 스키마 (ERD)
 
+<div align="center">
+  <a href="docs/images/erd.png"><img src="docs/images/erd.png" width="900" alt="실:온 MySQL ERD" /></a>
+  <br/><sub>클릭하면 원본 크기로 볼 수 있습니다. (<code>devices</code> · <code>voice_records</code> · <code>device_tts_messages</code>는 IoT 스피커 기획 단계의 테이블로, 현재 코드에서는 제거되었습니다.)</sub>
+</div>
+
+### 도메인 관계 요약 (Mermaid)
+
 ```mermaid
 erDiagram
     users ||--o| caregiver_profiles : "간병인 프로필"
